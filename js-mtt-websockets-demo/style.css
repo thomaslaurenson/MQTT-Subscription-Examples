@@ -8,17 +8,6 @@ body {
     padding-right: 10px;
     padding-left: 10px;
 }
-.left {
-    float: left;
-    width: 70%;
-    height: 100px;
-}
-.right {
-    float: right;
-    top: 18px;
-    left: 10px;
-    width: 30%;
-}
 input {
     width : 150px;
     margin: 0;
@@ -30,10 +19,6 @@ input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    box-sizing: border-box;
-}
-input[type=text]:focus {
-    background-color: lightblue;
 }
 input[type=button] {
     background-color: gray;
@@ -44,6 +29,9 @@ input[type=button] {
     font-weight: bold;
     margin: 4px 2px;
     cursor: pointer;
+}
+input[type=text]:focus {
+    background-color: lightblue;
 }
 input[type=button]:hover {
     background-color: #686868;
@@ -58,8 +46,6 @@ input[type=button]:hover {
     max-height: 250px;
     min-height: 250px;
     overflow: scroll;
-   /* resize: vertical;
-    */
 }
 #messages span {
     overflow-y: scroll;
